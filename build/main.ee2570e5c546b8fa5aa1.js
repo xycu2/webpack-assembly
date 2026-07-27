@@ -1,0 +1,1 @@
+(()=>{"use strict";const t={btn:"DHeP1FGw",title:"tVUDJsyo"};console.log("Объект стилей:",t);const e=document.createElement("div"),n=document.createElement("h1");n.textContent="Тест CSS Modules в JS",n.className=t.title;const o=document.createElement("button");o.textContent="Нажми меня",o.className=t.btn,e.appendChild(n),e.appendChild(o),document.body.appendChild(e)})();
