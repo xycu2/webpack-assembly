@@ -1,6 +1,10 @@
 // css modules - пример использования
 import styles from '@/components/Button.module.scss';
 
+// !!Алиасы!!
+// import avatarPng from '@/assets/avatar.png';
+// import avatarJpg from '@/assets/avatar.jpg';
+
 // Выведем в консоль, чтобы ты увидал, во что Webpack превратил твои стили!
 console.log('Объект стилей:', styles); 
 // В консоли будет что-то вроде: { btn: "src-Button-module__btn--3x9a1", title: "src-Button-module__title--1a2b3" }
