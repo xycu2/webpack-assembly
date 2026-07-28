@@ -1,5 +1,5 @@
 // css modules - пример использования
-import styles from './components/Button.module.scss';
+import styles from '@/components/Button.module.scss';
 
 // Выведем в консоль, чтобы ты увидал, во что Webpack превратил твои стили!
 console.log('Объект стилей:', styles); 
